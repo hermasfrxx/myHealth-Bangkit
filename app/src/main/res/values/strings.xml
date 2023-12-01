@@ -4,4 +4,12 @@
     <string name="register">Register</string>
     <string name="login">Login</string>
     <string name="welcome_to">Welcome to</string>
+    <string name="logo">Logo</string>
+    <string name="masukan_user">Masukan User</string>
+    <string name="hint_email_edit">Hint email</string>
+    <string name="hint_password_edit">Hint pAss</string>
+    <string name="daftar">Daftar</string>
+    <string name="sudah_punya_akun">Sudah punya akun</string>
+    <string name="masuk">Masuk</string>
+    <string name="belum_punya_akun">Belum punya</string>
 </resources>
