@@ -6,7 +6,7 @@
 
     <item
         android:id="@+id/todo"
-        android:title="ToDo"
-        android:icon="@drawable/flag" />
+        android:title="Profile"
+        android:icon="@drawable/baseline_person_outline_24" />
 
 </menu>

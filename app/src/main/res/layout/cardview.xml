@@ -10,7 +10,8 @@
         android:layout_width="190dp"
         android:layout_height="135dp"
         android:background="@drawable/rounded"
-        android:backgroundTint="@color/abuabu1"
+        android:backgroundTint="@color/white"
+        android:elevation="2dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -69,6 +70,7 @@
                     tools:ignore="TextSizeCheck" />
 
                 <TextView
+                    android:id="@+id/kalori"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="18dp"
@@ -94,6 +96,7 @@
                     tools:ignore="TextSizeCheck" />
 
                 <TextView
+                    android:id="@+id/lemak"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="15dp"
@@ -119,6 +122,7 @@
                     tools:ignore="TextSizeCheck" />
 
                 <TextView
+                    android:id="@+id/protein"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="13dp"
