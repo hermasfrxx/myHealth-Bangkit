@@ -24,7 +24,7 @@
             android:layout_marginStart="17dp"
             android:layout_marginTop="17dp"
             android:background="@drawable/rounded"
-            android:backgroundTint="@color/abuabu2" />
+            android:backgroundTint="@color/abuabu2"/>
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -74,10 +74,9 @@
                     android:layout_marginStart="30dp"
                     android:textColor="@color/black"
                     android:text="250cal"
-                    android:textSize="8sp" />
+                    android:textSize="8sp"/>
 
             </LinearLayout>
-
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
