@@ -5,5 +5,4 @@
         <item name="colorPrimary">@color/green</item>
     </style>
 
-    <style name="Theme.MyHealth" parent="Base.Theme.MyHealth" />
 </resources>

@@ -16,4 +16,110 @@
     <string name="user">user</string>
     <string name="hint_username_edit_text">Username</string>
     <string name="Dont_have_account">Don\'t have an account?</string>
+
+    <string-array name="food_name">
+        <item>Sate</item>
+        <item>Nasi Goreng</item>
+        <item>Ayam Bakar</item>
+        <item>Gado-Gado</item>
+        <item>Rendang</item>
+        <item>Soto Ayam</item>
+        <item>Mie Goreng</item>
+        <item>Capcay</item>
+        <item>Nasi Uduk</item>
+        <item>Semur Ayam</item>
+    </string-array>
+
+    <string-array name="food_kalori">
+        <item>250cal</item>
+        <item>400cal</item>
+        <item>300cal</item>
+        <item>150cal</item>
+        <item>350cal</item>
+        <item>200cal</item>
+        <item>350cal</item>
+        <item>180cal</item>
+        <item>220cal</item>
+        <item>280cal</item>
+    </string-array>
+
+    <string-array name="food_lemak">
+        <item>25gr</item>
+        <item>15gr</item>
+        <item>20gr</item>
+        <item>10gr</item>
+        <item>30gr</item>
+        <item>12gr</item>
+        <item>18gr</item>
+        <item>8gr</item>
+        <item>10gr</item>
+        <item>22gr</item>
+    </string-array>
+
+    <string-array name="food_protein">
+        <item>15gr</item>
+        <item>10gr</item>
+        <item>18gr</item>
+        <item>8gr</item>
+        <item>20gr</item>
+        <item>12gr</item>
+        <item>15gr</item>
+        <item>7gr</item>
+        <item>9gr</item>
+        <item>16gr</item>
+    </string-array>
+
+    <string-array name="image_foods">
+        <item>https://upload.wikimedia.org/wikipedia/commons/a/ad/Sate_Ponorogo.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/1/15/Chaufa_salvaje_Selva_17042010.JPG</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/f/f5/Ayam_bakar_bumbu_rujak.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/a/a2/Gado_gado.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/7/70/Rendang_daging_sapi_asli_Padang.JPG</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/0/05/Soto_ayam.JPG</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/f/f0/Mi_Goreng_GM.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/1/13/Cap_Cai.JPG</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/a/a6/Nasi_uduk_netherlands.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/4/40/Semur_Daging_Kentang.JPG</item>
+    </string-array>
+
+
+    <string-array name="activity_name">
+        <item>Push-up</item>
+        <item>Jumping Jacks</item>
+        <item>Walking</item>
+        <item>Jogging</item>
+        <item>Cycling</item>
+        <item>Swimming</item>
+        <item>Yoga</item>
+        <item>Jump Rope</item>
+        <item>Stretching</item>
+        <item>Dancing</item>
+    </string-array>
+
+    <string-array name="activity_kalori">
+        <item>250cal</item>
+        <item>500cal</item>
+        <item>200cal</item>
+        <item>400cal</item>
+        <item>350cal</item>
+        <item>600cal</item>
+        <item>150cal</item>
+        <item>700cal</item>
+        <item>100cal</item>
+        <item>300cal</item>
+    </string-array>
+
+    <string-array name="activity_img">
+        <item>https://pin.it/26ZwgDt</item>
+        <item>https://pin.it/26ZwgDt</item>
+        <item>https://pin.it/26ZwgDt</item>
+        <item>https://pin.it/26ZwgDt</item>
+        <item>https://pin.it/26ZwgDt</item>
+        <item>https://pin.it/26ZwgDt</item>
+        <item>https://pin.it/26ZwgDt</item>
+        <item>https://pin.it/26ZwgDt</item>
+        <item>https://pin.it/26ZwgDt</item>
+        <item>https://pin.it/26ZwgDt</item>
+    </string-array>
+
 </resources>

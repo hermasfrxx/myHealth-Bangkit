@@ -1,39 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-
-    <LinearLayout
-        android:layout_width="190dp"
-        android:layout_height="135dp"
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="165dp"
+        android:layout_height="120dp"
+        android:backgroundTint="@color/white"
+        android:divider="@android:color/transparent"
+        android:elevation="8dp"
         android:background="@drawable/rounded"
-        android:backgroundTint="@color/abuabu1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:cardPreventCornerOverlap="false">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="165dp"
+        android:layout_height="120dp"
+        android:background="@drawable/rounded">
 
 
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="80dp"
-            android:layout_height="100dp"
-            android:layout_marginStart="17dp"
-            android:layout_marginTop="17dp"
-            android:background="@drawable/rounded"
-            android:backgroundTint="@color/abuabu2" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imgfood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:background="@drawable/circle"
+            android:scaleType="fitCenter"
+            android:maxWidth="70dp"
+            android:maxHeight="85dp"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            tools:src="@drawable/baseline_image_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.542"
+            app:shapeAppearanceOverlay="@drawable/rounded"
+            android:clipToOutline="true"
+            android:outlineProvider="background"/>
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="116dp"
-            android:layout_marginTop="17dp"
-            android:orientation="vertical">
+            android:layout_width="77dp"
+            android:layout_height="86dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imgfood"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.558">
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/namefood"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
@@ -42,23 +60,12 @@
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/textView4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="2dp"
-                android:layout_marginStart="5dp"
-                android:text="Dalam 100gr :"
-                android:textColor="@color/black"
-                android:textSize="8sp"
-                tools:ignore="DuplicateIds" />
-
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
                 android:layout_marginStart="5dp"
-                android:layout_marginTop="2dp">
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -69,11 +76,12 @@
                     tools:ignore="TextSizeCheck" />
 
                 <TextView
+                    android:id="@+id/kalori"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="18dp"
-                    android:textColor="@color/black"
                     android:text="250cal"
+                    android:textColor="@color/black"
                     android:textSize="8sp" />
 
             </LinearLayout>
@@ -81,9 +89,8 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
                 android:layout_marginStart="5dp"
-                android:layout_marginTop="2dp">
+                android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -94,11 +101,12 @@
                     tools:ignore="TextSizeCheck" />
 
                 <TextView
+                    android:id="@+id/lemak"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="15dp"
-                    android:textColor="@color/black"
                     android:text="15gr"
+                    android:textColor="@color/black"
                     android:textSize="8sp" />
 
             </LinearLayout>
@@ -106,9 +114,8 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
                 android:layout_marginStart="5dp"
-                android:layout_marginTop="2dp">
+                android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -119,42 +126,27 @@
                     tools:ignore="TextSizeCheck" />
 
                 <TextView
+                    android:id="@+id/protein"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="13dp"
-                    android:textColor="@color/black"
                     android:text="20gr"
+                    android:textColor="@color/black"
                     android:textSize="8sp" />
 
+
             </LinearLayout>
 
-            <LinearLayout
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
                 android:layout_marginStart="5dp"
-                android:layout_marginTop="10dp">
-
-                <Button
-                    android:layout_width="40dp"
-                    android:layout_height="20dp"
-                    android:backgroundTint="@color/abuabu2"
-                    android:text="110cal"
-                    android:textColor="@color/black"
-                    android:textSize="10sp"
-                    tools:ignore="TouchTargetSizeCheck" />
-
-                <Button
-                    android:layout_width="35dp"
-                    android:layout_height="20dp"
-                    android:layout_marginStart="3dp"
-                    android:backgroundTint="@color/abuabu2"
-                    android:text="more"
-                    android:textColor="@color/black"
-                    android:textSize="10sp"
-                    tools:ignore="TouchTargetSizeCheck" />
-
-            </LinearLayout>
+                android:layout_marginTop="5dp"
+                android:text="per 100gr sajian"
+                android:textColor="@color/abuabu3"
+                android:textSize="5sp"
+                tools:ignore="DuplicateIds" />
         </LinearLayout>
-    </LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
