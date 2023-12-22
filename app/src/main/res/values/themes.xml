@@ -4,6 +4,8 @@
         <!-- Customize your light theme here. -->
         <item name="colorPrimary">@color/green</item>
     </style>
-
+    <style name="ToolbarTitle" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:fontFamily">@font/patuaone</item>
+    </style>
     <style name="Theme.MyHealth" parent="Base.Theme.MyHealth" />
 </resources>
